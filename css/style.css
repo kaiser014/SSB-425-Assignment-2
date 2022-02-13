@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+/* --- Header Section Start --- */
+.header-section{
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(192, 192, 192);
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 40%;
+}
+.menu-item ul li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 20px;
+    letter-spacing: 1px;
+}
+.menu-item ul li a{
+    color: rgb(92, 92, 92);
+}
+/* --- Header Section End --- */
+
+/* --- Banner Section Start --- */
+.banner-section{
+    width: 100%;
+    background-color: #fff;
+    padding: 70px 0;
+}
+.banner-content{
+    text-align: center;
+}
+.banner-content h1{
+    font-size: 56px;
+    color: #0F2656;
+    letter-spacing: 1px;
+}
+.banner-content span{
+    color: #008AFF;
+}
+.banner-content p{
+    color: #3A3863;
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+/* --- Banner Section End --- */
+
+/* --- Project Section Start --- */
+.project-section{
+    width: 100%;
+    background-color: #fff;
+    padding: 50px 0;
+}
+.project-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.project-desc{
+    width: 50%;
+    text-align: end;
+    padding-right: 40px;
+}
+.project-desc h1{
+    color: #F15767;
+    font-size: 56px;
+}
+.project-desc p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+}
+.project-title{
+    width: 50%;
+    padding-right: 120px;
+}
+.project-title h1{
+    font-size: 56px;
+    color: #0F2656;
+}
+/* --- Project Section End --- */
+
+/* --- Creativity Section Start --- */
+.creativity-section{
+    width: 100%;
+    background-color: #fff;
+    padding: 50px 0;
+}
+.creativity-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content{
+    width: 33.3%;
+    padding: 25px 25px 50px 25px;
+    margin: 0px 15px;
+}
+.content img{
+    width: 100%;
+}
+.content h3{
+    color: #071B4D;
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
+.content p{
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgb(83, 83, 83);
+}
+.one{
+    background-color: #FDEBED;
+}
+.two{
+    background-color: #EBF9F4;
+}
+.three{
+    background-color: #FFF7E8;
+}
+/* --- Creativity Section End --- */
+
+/* --- Footer Section Start --- */
+.footer-section{
+    width: 100%;
+    background-color: #008AFF;
+    padding: 30px 0;
+}
+.footer-content{
+    text-align: center;
+}
+.footer-content p{
+    margin: 0;
+    color: rgb(255, 255, 255, 0.6);
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+.footer-content span{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+/* --- Footer Section End --- */
